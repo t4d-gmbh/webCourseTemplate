@@ -165,7 +165,7 @@ def setup(app):
         }
         # only show discuss and pages icons in sidebar
         app.config.html_theme_options['icon_links'] = icon_links_slides
-        # Collapse the left sidebar by default
+        # Collapse nested navigation entries, not the sidebar panel itself.
         app.config.html_theme_options['collapse_navbar'] = True
         # adding the new styling
         app.config.html_css_files.append('slides.css')
