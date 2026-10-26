@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
 {% if slide %}
 ### Importing a page
 

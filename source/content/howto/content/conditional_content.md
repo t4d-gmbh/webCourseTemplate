@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
 ### Conditional Content
 
 Within each included or imported `.md` file you can also specify what content you want

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+
+SPDX-License-Identifier: GPL-3.0-only
+-->
+
 ### Combining Content
 
 We want to display each slide as a separate site but combine several slides into a single static webpage.
