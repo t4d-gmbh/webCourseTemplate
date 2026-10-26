@@ -5,6 +5,10 @@
 * Remember the slide sidebar’s expanded/collapsed state across page navigation within the current browser tab.
 * Add a configurable maximum content width for slides when the desktop sidebar is collapsed.
 
+## Bug Fixes
+
+* Resolve deployed page and slide navigation URLs from GitHub repository and Pages metadata instead of template `FIXME` placeholders, while preserving customised configuration.
+
 # 1.1.1
 [diff](https://github.com/t4d-gmbh/web-course-template/compare/1.1.0...1.1.1)
 

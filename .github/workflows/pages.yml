@@ -54,6 +54,8 @@ jobs:
       - name: Spinx build slides
         run: |
             sphinx-build -b html source docs/html/slides -E -A build="slides"
+      - name: Check generated page and slide navigation
+        run: python -m unittest discover -s tests -p test_pages_navigation.py
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
