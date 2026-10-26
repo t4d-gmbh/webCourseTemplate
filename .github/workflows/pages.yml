@@ -39,14 +39,21 @@ jobs:
           python-version: '3.13'
           cache: 'pip' # caching pip dependencies
       - run: pip install -r requirements.txt
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Test deployment configuration preparation
+        run: python -m unittest discover -s tests -p test_pages_config.py
+      - name: Prepare deployment configuration
+        env:
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: python .github/scripts/prepare_pages_config.py
       - name: Spinx build pages
         run: |
             sphinx-build -b html source docs/html -E -A build="pages"
       - name: Spinx build slides
         run: |
             sphinx-build -b html source docs/html/slides -E -A build="slides"
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
