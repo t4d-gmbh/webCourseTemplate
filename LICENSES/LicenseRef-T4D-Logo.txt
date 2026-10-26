@@ -1,0 +1,18 @@
+T4D Logos - All Rights Reserved
+
+Copyright (c) 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+
+This notice applies to the following files:
+
+    source/_static/T4D_logo.svg
+    source/_static/T4D_logo_bw.svg
+    source/_static/T4D_logo_wb.svg
+
+These logos are excluded from the GPL-3.0-only licence of the Web Course
+Template. All rights reserved.
+
+Except where permitted by applicable law, no permission is granted to use,
+reproduce, modify, or distribute these logos without prior written permission
+from the copyright holder.
+
+Requests for permission may be sent to j-i-l@t4d.ch.

@@ -3,7 +3,8 @@
 This is <img src="./source/_static/T4D_logo.svg" alt="T4D" width="25" height="25">'s template for a web-based
 course/workshop content.
 
-Feel free to use it as you please!
+Feel free to reuse the template under its licence, but please replace or remove
+our logos (the T4D's) before publishing your own course.
 
 ---
 
@@ -37,6 +38,19 @@ Head over to the [online documentation](https://t4d-gmbh.github.io/webCourseTemp
    sphinx-build -b html source docs/html/slides -E -A build="slides"
    ```
 6. View your course locally by opening the files: `docs/html/index.hmtl` (pages) and `docs/html/slides/index.html` for the slides.
+
+## License
+
+The template is licensed under [GPL-3.0-only](LICENSE), with these exceptions:
+
+- **T4D logos:** The files `source/_static/T4D_logo.svg`,
+  `source/_static/T4D_logo_bw.svg`, and `source/_static/T4D_logo_wb.svg` are
+  excluded from the GPL licence. All rights are reserved; use requires prior
+  written permission, except where permitted by applicable law. See
+  [the logo terms](LICENSES/LicenseRef-T4D-Logo.txt). Replace or remove these
+  logos before publishing a course based on this template.
+- **Bundled fonts:** The M+ fonts retain their third-party copyright and
+  [SIL Open Font License 1.1](source/_static/fonts/OFL.txt).
 
 ## Contributing 🤝🎉
 

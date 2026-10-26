@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023-2026 Jonas I. Liechti <j-i-l@t4d.ch>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
 from datetime import date
 from setuptools_scm import get_version
 
